@@ -38,6 +38,6 @@ urlpatterns = [
     path("addpost/", views.Add_post, name="addpost"),
     path("updatepost/<int:id>/", views.update_post, name="updatepost"),
     path("delete/<int:id>/", views.delete_post, name="deletepost"),
-    path("post_api/", include(router.urls)),
+    path("api/", include(router.urls)),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
 ]

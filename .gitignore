@@ -1,4 +1,6 @@
 venv/
-.pytest_cache
-**__pycache__
 db.sqlite3
+Blog/__pycache__/
+Blog/migrations/__pycache__/
+MiniBlog/__pycache__/
+*.pyc
